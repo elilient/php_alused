@@ -22,6 +22,20 @@ if($arv  > 0 and $arv < 26) {
 echo '<p style="color: '.$varv.'">'.$arv.'</p>';
 
 
-
+$foor = 'punane';
+switch($foor){
+    case 'punane':
+        echo '<p style="color: red">punane!</p>';
+        break;
+    case 'kollane':
+        echo '<p style="color: orange">kollane!</p>';
+        break;
+    case 'roheline':
+        echo '<p style="color: green">roheline!</p>';
+        break;
+    default:
+        echo '<p>mingi teine!</p>';
+        break;
+}
 
 ?>
