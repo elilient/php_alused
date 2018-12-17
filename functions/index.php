@@ -1,13 +1,15 @@
 <html>
 <head>
-    <title>Funktsiooni loomine</title>
+    <title>Funktsioon argumentidega</title>
 </head>
 <body>
 <?php
-function bighello(){
-    print "<h1>HELLO!</h1>";
+function printBR ($txt){
+    print("$txt<br>\n");
 }
-bighello();
+printBR("this is a line");
+printBR("this is a new line");
+printBR("this is yet another line");
 ?>
 </body>
 </html>
