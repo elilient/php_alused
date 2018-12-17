@@ -1,12 +1,13 @@
 <html>
 <head>
-    <title>Funktsiooni väljakutsumine</title>
+    <title>Funktsiooni loomine</title>
 </head>
 <body>
 <?php
-$num = - 321;
-$newnum = abs($num);
-print $newnum;
+function bighello(){
+    print "<h1>HELLO!</h1>";
+}
+bighello();
 ?>
 </body>
 </html>
