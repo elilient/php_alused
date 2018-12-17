@@ -1,14 +1,13 @@
 <html>
 <head>
-    <title>Funktsiooni dünaamiline väljakutse</title>
+    <title>Muutujate nähtavuse piirkond</title>
 </head>
 <body>
 <?php
-function sayHello() {
-    print "hello<br>";
+function test() {
+    $testvariable = "this is a test variable";
 }
-$function_holder = "sayHello";
-$function_holder();
+print "test variable: $testvariable<br>";
 ?>
 </body>
 </html>
