@@ -1,13 +1,13 @@
 <html>
 <head>
-    <title>Muutujate nähtavuse piirkond</title>
+    <title>Muutuja poole pöörudmine global instruktsiooni abil</title>
 </head>
 <body>
 <?php
-function test() {
-    $testvariable = "this is a test variable";
+function meaningOfLife() {
+    print "The meaning of life is $life<br>";
 }
-print "test variable: $testvariable<br>";
+meaningOfLife();
 ?>
 </body>
 </html>
