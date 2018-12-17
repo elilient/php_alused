@@ -1,15 +1,14 @@
 <html>
 <head>
-    <title>Funktsioon tagastab väärtuseid</title>
+    <title>Funktsiooni dünaamiline väljakutse</title>
 </head>
 <body>
 <?php
-function  addNums($firstnum, $secondnum)
-{
-    $result = $firstnum + $secondnum;
-    return $result;}
-    print addNums (3,5);
-
+function sayHello() {
+    print "hello<br>";
+}
+$function_holder = "sayHello";
+$function_holder();
 ?>
 </body>
 </html>
