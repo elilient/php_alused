@@ -5,7 +5,7 @@
 <body>
 <?php
 $num_of_calls = 0;
-function addFive($num){
+function addFive(&$num){
     $num += 5;
 }
 $originum=10;
