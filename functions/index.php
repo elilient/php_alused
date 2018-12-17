@@ -1,15 +1,15 @@
 <html>
 <head>
-    <title>Funktsioon argumentidega</title>
+    <title>Funktsioon tagastab väärtuseid</title>
 </head>
 <body>
 <?php
-function printBR ($txt){
-    print("$txt<br>\n");
-}
-printBR("this is a line");
-printBR("this is a new line");
-printBR("this is yet another line");
+function  addNums($firstnum, $secondnum)
+{
+    $result = $firstnum + $secondnum;
+    return $result;}
+    print addNums (3,5);
+
 ?>
 </body>
 </html>
