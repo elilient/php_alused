@@ -1,17 +1,16 @@
 <html>
 <head>
-    <title>Argumendid</title>
+    <title>Argumentide andmine viite abil</title>
 </head>
 <body>
 <?php
 $num_of_calls = 0;
-function fontWrap($txt, $size=3) {
-    print "<font size=\"$size\" face=\"Helvetica,Arial,Sans-Serif\">$txt</font>";
+function addFive($num){
+    $num += 5;
 }
-fontWrap("A heading<br>",5);
-fontWrap("some body text<br>");
-fontWrap("some more body text<BR>");
-fontWrap("yet more body text<BR>");
+$originum=10;
+addFive($orignum);
+print($orignum);
 ?>
 </body>
 </html>
