@@ -1,9 +1,17 @@
-<?php
-$tekst = 'Pai papa, pane paadile punased purjed peale';
-$asendus = 'emme';
-$otsitav = 'papa';
-$nihe = 0;
-$asenduse_algus = strpos($tekst, $otsitav, $nihe);
-$asenduse_markide_arv = strlen($otsitav);
-echo substr_replace($tekst, $asendus, $asenduse_algus, $asenduse_markide_arv);
-?>
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Kontakt</title>
+</head>
+<body>
+
+<h1>Kontakt</h1>
+<form action="vastus.php">
+    Nimi <input type="text" name="nimi"><br>
+    <input type="submit" value="Saada">
+    <?php
+    ?>
+</form>
+</body>
+</html>
