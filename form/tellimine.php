@@ -3,10 +3,17 @@
 //lisab vormist saadud andmed muutujasse
 $ring = $_GET['ring'];
 $pii = 3.14;
-$toode2 = $_GET['t2'];
-$toode3 = $_GET['t3'];
+$kring = $_GET['koonusring'];
+$kkorgus = $_GET['koonuskorgus'];
+$skorgus = $_GET['silinderkorgus'];
+$sraadius = $_GET['silinderraadius'];
 
-echo 'Kera ruumala: '.$pii*$ring*$ring*$ring.'<br>';
-echo 'Toode 2: '.$toode2.'tk<br>';
-echo 'Toode 3: '.$toode3.'tk<br>';
+$keraV = $pii*$ring*$ring*$ring*(4/3);
+$koonusV = $pii*$kring*$kring*$kkorgus*(1/3);
+$silinderV = $pii*$sraadius*$sraadius*$skorgus;
+
+
+echo 'Kera ruumala: '.number_format($keraV,2).'<br>';
+echo 'Koonuse ruumala: '.number_format($koonusV,2).'<br>';
+echo 'Silinder ruumala: '.number_format($silinderV,2).'<br>';
 ?>.
