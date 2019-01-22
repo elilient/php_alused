@@ -50,6 +50,9 @@ function kuu(){
 $now = time();
 $jaanipaev = strtotime("24 June 2019");
 $jargmine = $jaanipaev - $now;
+$isikA = strtotime("06 November 1980");
+$mina = strtotime("24 January 1993");
+$synnipvahe = $mina-$isikA;
 echo paev();
 echo '<br>';
 echo date('d.');
@@ -61,4 +64,8 @@ echo round($jargmine / (60*60*24)).' päeva!';
 echo '<br>';
 echo 'Isiku A sünnipäev on 06.11.1980';
 echo '<br>';
+echo 'Minu sünnipäev on 24.01.1993';
+echo '<br>';
+echo 'Isik A on minust vanem '.round($synnipvahe / (60*60*24*365)).' aastat';
+
 ?>
