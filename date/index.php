@@ -47,9 +47,18 @@ function kuu(){
         echo('detsember');
     }
 }
+$now = time();
+$jaanipaev = strtotime("24 June 2019");
+$jargmine = $jaanipaev - $now;
 echo paev();
 echo '<br>';
 echo date('d.');
 echo kuu().' '.date('Y').' ';
 echo paev();
+echo '<br>';
+echo date('Y').' aasta jaanipäevani on jäänud ';
+echo round($jargmine / (60*60*24)).' päeva!';
+echo '<br>';
+echo 'Isiku A sünnipäev on 06.11.1980';
+echo '<br>';
 ?>
