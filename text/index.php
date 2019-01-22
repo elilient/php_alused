@@ -1,6 +1,6 @@
 <?php
-
-$tekst = 'All thinking men are atheists';
-print_r(str_word_count($tekst, 2));
-//Array ( [0] => All [4] => thinking [13] => men [17] => are [21] => atheists )
+$tekst = 'Happiness in intelligent people is the rarest thing I know.';
+$otsitav = 'in';
+$leia_tekstist = strpos($tekst, $otsitav, 0);	//4
+echo $leia_tekstist;
 ?>
