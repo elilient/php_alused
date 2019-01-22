@@ -8,7 +8,7 @@
 
 <h1>Kontakt</h1>
 <form action="vastus.php">
-    Nimi <input type="text" name="nimi"><br>
+    Sisend <input type="text" name="nimi"><br>
     <input type="submit" value="Saada">
     <?php
     ?>

@@ -1,4 +1,6 @@
 <?php
 $nimi = $_GET['nimi'];
-echo 'Tere, '.ucfirst(strtolower($nimi));
+$upper = strtoupper($nimi);
+$punktiga = implode('.',str_split($upper));
+echo $punktiga;
 ?>
