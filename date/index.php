@@ -53,6 +53,9 @@ $jargmine = $jaanipaev - $now;
 $isikA = strtotime("06 November 1980");
 $mina = strtotime("24 January 1993");
 $synnipvahe = $mina-$isikA;
+$next = date('Y')+1;
+
+echo '<br>';
 echo paev();
 echo '<br>';
 echo date('d.');
@@ -66,7 +69,9 @@ echo 'Isiku A sünnipäev on 06.11.1980';
 echo '<br>';
 echo 'Minu sünnipäev on 24.01.1993';
 echo '<br>';
-echo 'Isik A on minust vanem '.round($synnipvahe / (60*60*24*365)).' aastat';
+echo 'Isik A on minust vanem '.round($synnipvahe / (60*60*24*366)).' aastat';
 echo '<br>';
 echo 'Maailmalõpp saabub 19.02.2016. Hetke kuupäev on '.date('d.m.Y').' See ei ole võimalik';
+echo '<br>';
+echo 'Järgmine aasta olen ma '.($next-date('Y',$mina)).'.aastane';
 ?>
