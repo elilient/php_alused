@@ -1,6 +1,7 @@
 <?php
-$tekst = 'Happiness in intelligent people is the rarest thing I know.';
-$otsitav = 'in';
-$leia_tekstist = strpos($tekst, $otsitav, 0);	//4
-echo $leia_tekstist;
+$tekst = 'Pai papa, pane paadile punased purjed peale';
+$asendus = 'emme';
+$otsitav_algus = 4;
+$otsitav_pikkus = 4;
+echo substr_replace($tekst, $asendus, $otsitav_algus, $otsitav_pikkus);
 ?>
