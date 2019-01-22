@@ -1,3 +1,3 @@
 <?php
-echo date('d.m.Y G:i' , time());	//22.02.2013 16:02
+date_default_timezone_set('Europe/Tallinn');	//22.02.2013 18:02
 ?>
