@@ -1,4 +1,8 @@
+
 <?php
 $nimi = $_GET['nimi'];
-echo str_replace("noob", "****", $nimi);
+$nimi = strtolower($nimi);
+
+echo '<br>';
+echo  utf8_decode($nimi);
 ?>
