@@ -2,7 +2,7 @@
     <menu>
         <a href="index.php">Avaleht</a>
         <a href="index.php?leht=portfoolio">Portfoolio</a>
-        <a href="index.php?leht=kaart">Kaart</a>
+        <a href="index.php?leht=meist">Meist</a>
         <a href="index.php?leht=kontakt">Kontakt</a>
     </menu>
 <?php
