@@ -4,11 +4,12 @@
         <a href="index.php?leht=portfoolio">Portfoolio</a>
         <a href="index.php?leht=meist">Meist</a>
         <a href="index.php?leht=kontakt">Kontakt</a>
+        <a href="index.php?leht=test">Test</a>
     </menu>
 <?php
 if(!empty($_GET['leht'])){
     $leht = htmlspecialchars($_GET['leht']);
-    $lubatud = array('portfoolio','kaart','kontakt');
+    $lubatud = array('portfoolio','meist','kontakt');
     $kontroll = in_array($leht, $lubatud);
     if($kontroll==true){
         include($leht.'.php');
