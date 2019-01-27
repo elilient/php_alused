@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f02b0c63-3cf5-48d6-8036-05fbb5624179" name="ikt" url="http://edgarlilienthal.ikt.khk.ee">
+        <fileTransfer host="edgarlilienthal.ikt.khk.ee" port="22" rootFolder="/home/edgarlielienthal" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
