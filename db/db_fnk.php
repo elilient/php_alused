@@ -6,5 +6,7 @@ function connect_db($hostName, $dbUser, $dbPass, $dbName) {
         echo mysqli_connect_error().'<br>';
         exit;
     }
+
+
     return $conn;
 }
